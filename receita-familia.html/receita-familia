@@ -1,0 +1,51 @@
+<!doctype html>
+   <html lang="pt-PT">
+    <head>
+    <meta charset="UTF-8"/>
+    <title>Bolo de Chocolate Simples e Húmido</title>
+    </head>
+  <body>
+       <h1>Bolo de Chocolate Simples e Húmido</h1>
+
+     <!--ingredientes-->
+    <h2> Ingredientes</h2>
+
+    <p>Para a massa:</p>
+    <p>2 chávenas de farinha de trigo </p>
+    <p>1,5 chávenas de açúcar</p>
+    <p>1 chávena de chocolate em pó (ou cacau em pó)</p>
+    <p>1 chávena de leite morno</p>
+    <p>1/2 chávena de óleo vegetal</p>
+    <p>3 ovos</p>
+    <p>1 colher de sopa de fermento em pó para bolos</p>
+    <p>1 pitada de sal</p>
+    <p>Para a cobertura (ganache rápida):</p>
+    <p>1 lata de leite condensado</p>
+    <p>1 colher de sopa de manteiga</p>
+    <p>4 colheres de sopa de chocolate em pó (ou cacau)</p>
+    <p>1/2 pacote de natas (ou leite de coco) para dar cremosidade</p>
+
+    <!--modo de preparo-->
+    <h2>Modo de Preparação</h2>
+    <h3>Prepara a Massa:</h3>
+    <p>Pré-aquece o forno a 180 °C e unta uma forma (com buraco no meio ou redonda)<br> com manteiga e pulveriza com chocolate em pó ou farinha.</p>
+
+    <p>Bate os líquidos: Numa taça grande ou no liquidificador, junta os ovos, o óleo,<br> o leite e o açúcar. Bate bem até obter uma mistura homogénea.</p>
+    <p>Adiciona os secos: Peneira a farinha, o chocolate em pó e a pitada de sal para cima da mistura.<br> Envolve suavemente com uma vara de arames até não haver grumos.</p>
+    <p>Acrescenta o fermento: Adiciona o fermento em pó e mistura delicadamente apenas para incorporar.</p>
+    <p>Leva ao forno: Despeja a massa na forma untada e leva ao forno durante cerca de 35 a 40 minutos. Faz o teste do palito no centro: se sair limpo,<br> o bolo está pronto. Deixa arrefecer um pouco antes de desenformar.</p>
+
+    <h3>Prepara a Cobertura:</h3>
+    <p>Numa panela pequena em lume brando, junta o leite condensado, a manteiga e o chocolate em pó.</p>
+    <p>Mexe sempre sem parar até começar a descolar do fundo da panela (ponto de brigadeiro mole).</p>
+    <p>Desliga o lume, adiciona as natas e mexe bem até ficar um creme brilhante e suave.</p>
+    <p>Vertes a cobertura ainda morna sobre o bolo desenformado.</p>
+
+    <h3>Dica: </h3>
+    <p> <strong>Se quiseres que o bolo fique ainda mais escuro e fofinho,<br> podes substituir o leite morno por 1 chávena de água a ferver ou café quente<br> </strong> (o café realça o sabor do chocolate sem deixar gosto a café).</p>
+
+   <hr/>
+   &copy;2026 Doces de Portugal
+
+  </body>
+</html>

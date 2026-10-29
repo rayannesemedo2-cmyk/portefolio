@@ -1,0 +1,23 @@
+### Missão 4: O Relatório
+
+Entreguem as respostas:
+
+1. Os repositórios:
+   Quais são os endereços dos vossos dois repositórios no GitHub (`portefolio` e `exercicios-uf1.1`)?
+   Resposta:
+    [ortefolio: [https://github.com/](https://github.com/)[rayannesemedo2-cmyk]/portefolio
+
+    exercicios-uf1.1: [https://github.com/](https://github.com/)[rayannesemedo2-cmyk]/exercicios-uf1.1(Substitui [rayannesemedo2-cmyk] pelo  exato no GitHub)]
+
+2. O ciclo de trabalho:
+   Expliquem, por palavras vossas, o que fazem `git add`, `git commit` e `git push`, e porque é que são três passos separados.
+   Resposta: 
+   [git add: Seleciona e prepara as alterações feitas nos ficheiros para serem guardados no repositorio local.
+    git commit: Confirma as alterações preparadas e as adiciona ao histórico de commits local.
+    git push: Envia os commits locais para o repositório remoto.]
+
+3. O texto alternativo:
+   Que `alt` escreveram para a imagem dos ovos moles? Quem vai precisar desse texto?
+   Resposta:
+    [alt escrito: "Uma barrica de madeira pintada com flores, cheia de ovos moles."
+    Quem vai precirar: Pessoas com deficiência visual que usam leitores de ecrã para compreender o conteúdo da página.]
