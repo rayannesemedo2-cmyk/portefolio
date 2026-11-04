@@ -17,29 +17,37 @@
   
      <h1>Cidade da Praia</h1>
      </header>
-       
+       <nav>
+        <ul>
+          <li><a href="cidade.html">inicio</a></li>
+          <li><a href="onde-fica.html">onde fica</a></li>
+          <li><a href="historia.html">historia</a></li>
+          <li><a href="monumentos.html">monumentos</a></li>
+          <li><a href="ditado.html">ditado</a></li>
+        </ul>
      <main>
 
-     <section>
+     <section id="onde-fica">
 
      <!-- esta e a secao sobre a cidade da praia -->
-     <h2>sobre cidade da praia</h2>
-     <p>a cidade da praia fica na ilha de santiago<em> cabo verde na costa ocidental da africa </em> </p>
-     </section>
+     <h2>Sobre cidade da praia</h2>
+     <p>A cidade da praia é o capital de Cabo Verde e fica no sul da ilha de santiago um das ilhas mais populares do país.</p>
+     <p>onde fica: <a href="onde-fica.html" target="_blank">http://www.instagram.com/cidade-da-praia">@cidade-da praia</a></p>
+    </section>
 
-     <section>
+     <section id="historia">
 
      <!--esta e a secao sobre a historia da cidade da praia -->
-     <h2>como e conhecida a cidade da praia</h2>
-     <p>conhecida pelas lindas praias e pela hospitalidade de seu povo.<br/> a cidade oferece diversas atividades turísticas, incluindo passeios debarco, mergulho e trilhas pela natureza.</p>
+     <h2>Como e conhecida a cidade da praia</h2>
+     <p>Conhecida pelas lindas praias e pela hospitalidade de seu povo.<br/> a cidade oferece diversas atividades turísticas, incluindo passeios debarco, mergulho e trilhas pela natureza.</p>
 
      </section>
 
-      <section>
+      <section id="monumentos">
 
      <!--esta e a secao sobre o que torna a cidade da praia unica -->
-     <h2>o que torna a cidade da praia única</h2>
-     <p>alem disso,<strong> a cidade possui uma rica cultura e tradições</strong>que a tornam uns dos destino mais procurados para os visitantes.</p>
+     <h2>O que torna a cidade da praia única</h2>
+     <p>Alem disso,<strong> A Cidade possui uma rica cultura e tradições</strong>que a tornam uns dos destino mais procurados para os visitantes.</p>
 
       </section>
 
@@ -57,18 +65,78 @@
      </section>
 
 
-     <section>
+     <section id="o-que-visitar">
       <!-- esta e a secao sobre os pontos turisticos da cidade da praia-->
-      <h2>pontos turisticos da cidade da praia</h2>
-      <p>alguns dos pontos turisticos mais populares e a praia de gamboa.</p>
-      <p>ruas de platou,praia de kebra kanela </p>
+      <h2>Pontos Turisticos da Cidade da Praia</h2>
+      <ul>
+        <li><strong>museu municipal</strong>Exposição permanente sobre a história da cidade</li>
+        <li><strong>Ruas de Platou</strong>ruas verdes cheias de hitórias</li>
+        <li><strong>Praia de Kebra Kanela</strong>água cristalina e</li>
+      </ul>
      </section>
       
-     </main>
-   
+     <section id="ditado">
+      <!-- esta e a secao sobre o ditado da cidade da praia-->
+      <h2>Ditados da cidade da praia</h2>
+      <p>Alguns dos ditados da cidade da praia são: <em>"Quem não conhece a cidade da praia nao conhece cabo verde",
+     "praia e sabi mais e perrigoso"</em></p>
+     </section>
+
+     <section>
+      <h2>Principais monumentos</h2>
+
+      <table>
+        <caption> Principais Monumentos da Cidade da Praia</caption>
+
+        <thead>
+          <tr>
+            <th scope="col">Monumento</th>
+            <th scope="col">Construção/Século</th>
+            <th scope="col">Estilo</th>
+            <th scope="col">Classificação</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Monumento de Diogo Gomes</td>
+            <td>Século XX</td>
+            <td>Escultura em ferro fundido</td>
+            <td>Património histórico e cultural</td>
+           </tr>
+
+
+           <tr>    
+            <td>Memorial Amílcar Cabral</td>
+            <td>Século XX</td>
+            <td>Memorial moderno</td>
+            <td>Monumento histórico e cultural</td>
+           </tr>
+
+           <tr>
+            <td>Farol de D. Maria Pia</td>
+            <td>Século XIX</td>
+            <td>Arquitetura funcional</td>
+            <td>Património cultural</td>
+           </tr>
+
+           <tr>
+            <td>Quartel Jaime Mota</td>
+            <td>Século XIX</td>
+            <td>Arquitetura militar</td>
+            <td>Património Nacional</td>
+           </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+    </main>
      <footer>
       <!--rodape-->
-    &copy; ressureicao moreno 2026
+    &copy; Ressureição Moreno 2026
 
     </footer>
   </body>
