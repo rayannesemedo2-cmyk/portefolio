@@ -12,19 +12,22 @@
       src="imagens-4/cidade.svg"
       alt="foto de cidade da praia"
       width="240px"
-      height="160px"s
+      height="160px"
       />
   
      <h1>Cidade da Praia</h1>
      </header>
+
        <nav>
         <ul>
-          <li><a href="cidade.html">inicio</a></li>
-          <li><a href="onde-fica.html">onde fica</a></li>
-          <li><a href="historia.html">historia</a></li>
-          <li><a href="monumentos.html">monumentos</a></li>
-          <li><a href="ditado.html">ditado</a></li>
+          <li><a href="cidade.html">Inicio</a></li>
+          <li><a href="onde-fica.html">Onde fica</a></li>
+          <li><a href="historia.html">Historia</a></li>
+          <li><a href="monumentos.html">Monumentos</a></li>
+          <li><a href="ditado.html">Ditado</a></li>
         </ul>
+       </nav>
+
      <main>
 
      <section id="onde-fica">
@@ -76,6 +79,7 @@
      </section>
       
      <section id="ditado">
+    
       <!-- esta e a secao sobre o ditado da cidade da praia-->
       <h2>Ditados da cidade da praia</h2>
       <p>Alguns dos ditados da cidade da praia são: <em>"Quem não conhece a cidade da praia nao conhece cabo verde",
@@ -84,7 +88,6 @@
 
      <section>
       <h2>Principais monumentos</h2>
-
       <table>
         <caption> Principais Monumentos da Cidade da Praia</caption>
 
@@ -128,16 +131,11 @@
            </tr>
         </tbody>
       </table>
-
-
-
-
-
-    </main>
+      </section>
+     </main>
      <footer>
       <!--rodape-->
     &copy; Ressureição Moreno 2026
-
     </footer>
   </body>
 </html>
