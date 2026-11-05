@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina de Olaria Tradicional de Barcelos</title>
+  </head>
+
+  <body>
+    <header>
+       <h1>Oficina de Olaria Tradicional de Barcelos</h1>
+
+         <p>A olaria e o figurado de Barcelos são duas das mais ricas expressões da arte popular portuguesa. Trabalhado há séculos no barro vermelho característico do Minho,<br>
+         o artesanato de Barcelos combina técnicas de moldagem na roda ancestral com a imaginação viva dos mestres barristas.
+         A nossa oficina comunitária abre portas todas as semanas a quem desejar sujar as mãos no barro, aprender a girar a roda de oleiro e pintar motivos tradicionais do nosso folclore.</p>
+
+       <nav>
+          <ul><a href="Workshops Disponiveis"></a></ul>
+          <ul><a href="Horários e Modalidade"></a></ul>
+          <ul><a href="Formulário de Pré-Inscrição"></a></ul>
+          <ul><a href="Contactos da Oficina"></a></ul>
+       </nav>
+    </header>
+
+<main>
+    <section id="workshops">
+<h2>Workshops Disponíveis</h2>
+
+  <article>
+    <h3>Iniciação à Roda de Oleiro</h3>
+<p>Aprenda a centrar o barro na roda manual, a erguer as paredes e
+     a criar as suas primeiras peças utilitárias (tigelas, canecas e pequenos jarros).</p>
+     <ul>
+<li>Duração: 8 horas (4 sessões de 2 horas)</li>
+<li>Materiais: Barro vermelho, avental e ferramentas de corte incluídos</li>
+</ul>
+</article>
+
+<article>
+<h3>Pintura de Figurado e Galo de Barcelos</h3>
+<p>Descubra a simbologia e as paletas tradicionais da arte popular minhota. Cada formando pinta uma peça moldada em barro cozido e aprende a técnica dos ponteados e florais.
+</p>
+ <ul>
+ <li>Duração: 4 horas (2 sessões de 2 horas)</li>
+<li>Materiais: Peças cozidas, tintas acrílicas tradicionais e pincéis incluídos</li>
+</ul>
+</article>
+
+<article>
+<h3>Modelação Manual e Escultura Livre</h3>
+
+<p>Técnicas ancestrais de rolinhos (lastras) e modelação direta com as mãos,
+     sem recurso à roda. Ideal para criar peças decorativas, figuras e máscaras.</p>
+<ul>
+<li>Duração: 6 horas (3 sessões de 2 horas)</li>
+<li>Materiais: Barro terracota e cozedura em forno elétrico incluídos</li>
+</ul>
+</article>
+</section>
+
+<section id="horario">
+<h2>Horários e Modalidades</h2>
+<table border="1">
+    <coption>Horários dos workshops de Olaria</coption>
+
+    <thead>
+        <tr>
+            <th scope="col">Workshop</th>
+            <th scope="dia">Dia</th>
+            <th scope="horario">Horário</th>
+            <th scope="modalidade">Modalidade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Iniciação á Olaria</th>
+            <td>Terça-Feira</td>
+            <td>19:00-21:00</td>
+            <td>Pós-laboral</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Modelação á Mão</th>
+            <td>Quinta-Feira</td>
+            <td>19:00</td> 
+            <td>Pós-laboral</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Pintura e decoração da Cerâmica</th>
+            <td>Sábado</td>
+            <td>10:00-13:00</td>
+            <td>Fim de semana</td>
+        </tr>
+    </tbody>
+</table>
+</section>
+
+<section id="inscricao">
+<h2>Formulário de Pré-Inscrição</h2>
+
+<P>Preencha o formulário para manifestar o seu interesse nos workshops disponíveis</P>
+
+<form action="#" method="post">
+    <fieldset>
+<legend>Dados pessoais do formando:</legend>
+<p>
+    <label for="nome">Nome Completo:</label>
+    <input
+    type="text"
+    id="nome"
+    name="nome"
+    required>
+</p>
+
+<p>
+    <label for="email">Endereço de correio eletrónica:</label>
+    <input
+    type="email"
+    id="email"
+    name="email"
+    required>
+</p>
+
+<p>
+    <label for="contacto">Contacto telefónico:</label>
+    <input
+    type="contacto"
+    id="contacto"
+    name="contacto"
+    required>
+</p>
+</fieldset>
+
+<fieldset>
+    <legend>Dados da formação:</legend>
+
+    <p>
+        <label for="workshop">Escolha o workshop:</label>
+        <select id="workshop" name="workshop"required>
+            <option value=""selected>Selecione um workshop</option>
+            <option value="iniciacao">Iniciação á Olaria</option>
+            <option value="pintura">Pintura de Figurado</option>
+            <option value="modelacao">Modelação Manual</option>
+        </select>
+    </p>
+
+    <p>Regime de frequência:</p>
+
+    <p>
+        <input
+        type="radio"
+        id="pos-laboral"
+        name="regime"
+        value="pos-laboral"
+        required>
+        <label for="pos-laboral">Pós-laboral</label>
+    </p>
+
+    <p>
+        <input
+        type="radio"
+        id="fim-de-semana"
+        name="regime"
+        value="sabado"
+        required>
+        <label for="fim-de-semana">Fim de Semena</label>
+    </p>
+
+    <p>Dias com disponibilidade:</p>
+  
+    <p>
+        <input
+        type="checkbox"
+        id="terca-feira"
+        name="dias"
+        value="terca-feira"
+        <label for="tercao-feira">Terça-Feira</label>
+    </p>
+
+<p>
+        <input
+        type="checkbox"
+        id="quinta-feira"
+        name="dias"
+        value="quinta-feira">
+        <label for="quinta-feira">Quinta-Feira</label>
+    </p>
+
+    <p>
+       <input
+       type="checkbox"
+       id="sabado"
+       name="dias"
+       value="sabado">
+       <label for="sabado">Sábado</label>
+    </p>
+
+<p>
+    <label for="motivacao">Motivação ou Experiência:</label>
+<textarea
+id="motivacao"
+name="motivacao"
+rows="5"
+cols="40"
+placeholder="conte-nos porque deseja participar...."></textarea>
+</p>
+
+<p>
+    <input
+    type="checkbox"
+    id="autorizacao"
+    name="autorizacao"
+    value="sim"
+    required>
+    <lebal for="autorizacao">
+        Autorizo o constacto para assuntos relacionados com inscrição
+    </lebal>
+</p>
+</fieldset>
+<p>
+    <button type="submit">Enviar pré-inscrição</button>
+    <button type="reset">Limpar formulário</button>
+</p>
+</form>
+</section>
+
+<section id="contactos">
+    <h2>Contactos e localização</h2>
+
+    <p>
+        Morada: Largo da Feira, nº 24, Barcelos.
+        <em>Substitua pela morada indicada no ficheiro da atividade.</em>
+    </p>
+
+    <p>
+        Correio eletrónico:
+        <a
+        href="mailto:olaria@artesanatobarcelos.pt">olaria@artesanatobarcelos.p</a>
+        <em>Substitua pelo endereço de contacto correto.</em>
+    </p>
+
+    <p>
+        Portal Informativo:
+        <a
+        href=" https://artesanatobarcelos.pt"
+        target="_blank"
+        rel="noreferrer noopener">
+        Câmara Municipal de Barcelos
+    </a>
+    </p>
+
+</section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Associação dos Artesãos e Oleiros de Barcelos</p>
+</footer>
+</body>
+</html>
+
+

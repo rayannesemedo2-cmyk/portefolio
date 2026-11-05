@@ -12,10 +12,75 @@
         <ul>
           <li><a href="index.html">inicio</a></li>
           <li><a href="sobre.html">sobre</a></li>
-          <li><a href="projetos.html">projetos</a></li>
           <li><a href="contacto.html">contacto</a></li>
         </ul>
       </nav>
     </header>
+    <main>
+      <section id="fomulario-contacto">
+        <h2>Enviar uma mensagem</h2>
+        <p>
+          Se preferir, pode enviar uma mensagem diretamente através do
+          formulário abaixo.
+        </p>
+        <form action="#" method="GET">
+          <label for="nome-completo">Nome Completo</label><br />
+          <input
+            type="text"
+            placeholder="Insira o seu nome completo"
+            id="nome-completo"
+            name="nome-completo"
+          /><br />
+
+          <label for="data-de-nascimento">Data de Nascimento</label><br />
+          <input
+            type="date-de-nascimento"
+            placeholder="Insira a sua data de nascimento"
+            id="date-de-nascimento"
+            name="data-de mascimento"
+          /><br />
+
+          <label for="password">Password</label><br />
+          <input
+            type="password"
+            placeholder="Insira a sua password"
+            id="password"
+            name="password"
+          /><br />
+
+          <label for="sexo">Sexo:</label><br />
+          <select>
+            <option value="f">Feminino</option>
+            <option value="m">Masculino</option></select
+          ><br />
+
+          <textarea
+            id="descricao"
+            name="descricao"
+            placeholder="Escreva a sua mensagen"
+            row="6"
+            cols="40"
+          >
+          </textarea
+          ><br />
+
+          <lebal for="telefone">Telefone</lebal>
+          <input type="radio" 
+          id="telefone" 
+          name="preferencia" checked />
+
+          <label for="email">Email</label>
+          <input type="radio" 
+          id="email" 
+          name="preferencia" /><br>
+
+          <lebal for="">Autorização para uso dos dados introduzidos</lebal>
+          <input id="autorizacao" name="autorizacao" type="checkbox"/>
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>

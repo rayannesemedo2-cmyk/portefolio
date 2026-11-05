@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-PT">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Cidade da Praia</title>
   </head>
 
@@ -10,9 +10,9 @@
       <img
         src="imagens-5/cidade.svg"
         alt="foto de cidade da praia"
-        width="240px"
-        height="160px"
-      />
+        width="240"
+        height="160"
+      >
 
       <h1>Cidade da Praia</h1>
     </header>
@@ -48,7 +48,7 @@
         <!--esta e a secao sobre a historia da cidade da praia -->
         <h2>Como e conhecida a cidade da praia</h2>
         <p>
-          Conhecida pelas lindas praias e pela hospitalidade de seu povo.<br />
+          Conhecida pelas lindas praias e pela hospitalidade de seu povo.<br>
           a cidade oferece diversas atividades turísticas, incluindo passeios
           debarco, mergulho e trilhas pela natureza.
         </p>
@@ -63,7 +63,9 @@
       </section>
 
       <section>
+        <h2>Opiniões sobre a cidade da Praia</h2>
         <article>
+          <h2>Uma opinião sobre a cidade da Praia</h2>
           <blockquote>
             <p>
               "A cidade da praia é um verdadeiro paraíso para os amantes da
@@ -71,6 +73,7 @@
             </p>
           </blockquote>
         </article>
+
         <aside>
           <p>Turistas da Cidade da Praia.2026</p>
         </aside>
@@ -100,7 +103,7 @@
       </section>
 
       <section>
-        <table border="5">
+        <table  border="10">
           <caption>
             <h2>Principais monumentos</h2>
           </caption>
@@ -155,62 +158,71 @@
   <fieldset>
     <legend>A sua identidade</legend>
 
-    <lebel for="nome">Nome:</lebel>
+    <label for="nome">Nome:</label>
     <input 
     type="text" 
     id="nome"
     name="nome" 
     value="Magda Semedo"
-    required/>
+    required>
 
-    <br /><br />
+    <br><br>
 
-    <lebel for="email">E-mail:</lebel>
+    <label for="email">E-mail:</label>
     <input 
     type="email" 
     id="email" 
     name="email" 
     value="magdasemedo12@gmail.com"
-    required/>
+    required>
   </fieldset>
 
-  <br/>
+  <br>
 
 <fieldset>
   <legend>Detalhes da sugestão:</legend>
   <label for="categoria">Categoria do local:</label>
   <select id="categoria" name="categoria" required>
-    <option value="monumento" selected>Monumento</option>
+    <option value="" selected>Selecione uma categoria</option>
+    <option value="monumento" >Monumento</option>
     <option value="natureza">Miradouro/Natureza</option>
     <option value="gastronomia">Restourante/Gastronomia</option>
     <option value="museu">Museu</option>
   </select>
-
-  <br /><br/>
+  <br><br>
   <p>É morador local ou turista?</p>
   
   <input
   type="radio"
-  id="morado"
+  id="morador"
   name="tipo_visitante"
   checked
-  required />
+  required>
 
-  <label for="morador">Morador local</label>
+  <label for="morador">Morador local ou Turista?</label>
  <br/>
+
+ <input
+ type="radio"
+id="morador"
+name="tipo_visitante"
+value="morador">
+
+<label for="morador">Morador local</label>
+<br>
 
  <input
  type="radio"
 id="turista"
 name="tipo_visitante"
-value="turista" />
+value="turista">
 
 <label for="turista">Turista</label>
 
-<br/><br/>
+<br><br>
 
 <label for="descricao">Descreva o local sugerido:</label>
-<br/>
+<br>
 
 <textarea
 id="descricao"
@@ -220,7 +232,7 @@ cols="40"
 required 
 >Sugiro visitar o Monumento Papa Francisco, situado na praça Cruz de Papa.
 </textarea>
-<br/>
+<br>
 
 <input 
 type="checkbox"
@@ -228,13 +240,13 @@ id="autorizacao"
 name="autorizacao"
 value="sim"
 checked
-required/>
+required>
 
 <label for="autorizacao">Autorizo a publicação da minha sugestão.</label>
 
 </fieldset>
 
-<br/>
+<br>
 <button type="submit">Enviar sugestão</button>
 
 <button type="reset">Limpar formulário</button>
