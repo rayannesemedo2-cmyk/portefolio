@@ -15,10 +15,12 @@
          A nossa oficina comunitária abre portas todas as semanas a quem desejar sujar as mãos no barro, aprender a girar a roda de oleiro e pintar motivos tradicionais do nosso folclore.</p>
 
        <nav>
-          <ul><a href="Workshops Disponiveis"></a></ul>
-          <ul><a href="Horários e Modalidade"></a></ul>
-          <ul><a href="Formulário de Pré-Inscrição"></a></ul>
-          <ul><a href="Contactos da Oficina"></a></ul>
+          <ul>
+            <li><a href="Workshops-Disponiveis"></a></li>
+          <li><a href="Horários-e-Modalidade"></a></li>
+          <li><a href="Formulário-de-Pré-Inscrição"></a></li>
+          <li><a href="Contactos-da-Oficina"></a></li>
+          </ul>
        </nav>
     </header>
 
@@ -51,24 +53,28 @@
 
 <p>Técnicas ancestrais de rolinhos (lastras) e modelação direta com as mãos,
      sem recurso à roda. Ideal para criar peças decorativas, figuras e máscaras.</p>
+
 <ul>
 <li>Duração: 6 horas (3 sessões de 2 horas)</li>
 <li>Materiais: Barro terracota e cozedura em forno elétrico incluídos</li>
 </ul>
+
 </article>
 </section>
 
 <section id="horario">
 <h2>Horários e Modalidades</h2>
-<table border="1">
-    <coption>Horários dos workshops de Olaria</coption>
+     <style>
+table, th, td border="1"
+    </style>
+    <caption>Horários dos workshops de Olaria</caption>
 
     <thead>
         <tr>
             <th scope="col">Workshop</th>
-            <th scope="dia">Dia</th>
-            <th scope="horario">Horário</th>
-            <th scope="modalidade">Modalidade</th>
+            <th scope="col">Dia</th>
+            <th scope="col">Horário</th>
+            <th scope="col">Modalidade</th>
         </tr>
     </thead>
     <tbody>
@@ -123,9 +129,9 @@
 </p>
 
 <p>
-    <label for="contacto">Contacto telefónico:</label>
+    <label for="contacto">Telefónico:</label>
     <input
-    type="contacto"
+    type="tel"
     id="contacto"
     name="contacto"
     required>
@@ -137,8 +143,8 @@
 
     <p>
         <label for="workshop">Escolha o workshop:</label>
-        <select id="workshop" name="workshop"required>
-            <option value=""selected>Selecione um workshop</option>
+        <select id="workshop" name="workshop" required>
+            <option value="" select>Selecione um workshop</option>
             <option value="iniciacao">Iniciação á Olaria</option>
             <option value="pintura">Pintura de Figurado</option>
             <option value="modelacao">Modelação Manual</option>
@@ -174,8 +180,8 @@
         type="checkbox"
         id="terca-feira"
         name="dias"
-        value="terca-feira"
-        <label for="tercao-feira">Terça-Feira</label>
+        value="terca-feira">
+        <label for="terca-feira">Terça-Feira</label>
     </p>
 
 <p>
@@ -213,9 +219,9 @@ placeholder="conte-nos porque deseja participar...."></textarea>
     name="autorizacao"
     value="sim"
     required>
-    <lebal for="autorizacao">
+    <label for="autorizacao">
         Autorizo o constacto para assuntos relacionados com inscrição
-    </lebal>
+    </label>
 </p>
 </fieldset>
 <p>
