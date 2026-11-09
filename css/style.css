@@ -1,0 +1,13 @@
+body{
+    font-family:sans-serif;
+    background-color:rgb(red green blue / alpha);
+  }
+h2{
+  color:rgba(112, 67, 8, 0.897);
+  font-size:12pt;
+  font-weight:bold
+}
+h1{
+  color: rgb(209, 64, 64);
+  font-family:"Franklin Gothic Medium";
+}
