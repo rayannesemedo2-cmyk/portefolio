@@ -2,6 +2,12 @@
 <html lang="pt-PT">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Entr em contacto com a Ressureição Moreno para proposta de estágio, projetos de desenvolvimento web ou esclarecimento de dúvidas"
+    />
+    <meta name="author" content="Ressureição Moreno" />
+    <meta name="viewport" content="width=device-widyh, initial-scale=1.0" />
     <title>Portefolio|Contacto</title>
   </head>
   <body>
@@ -24,61 +30,103 @@
           formulário abaixo.
         </p>
         <form action="#" method="GET">
-          <label for="nome-completo">Nome Completo</label><br />
-          <input
-            type="text"
-            placeholder="Insira o seu nome completo"
-            id="nome-completo"
-            name="nome-completo"
-          /><br />
+          <fieldset>
+            <legend>Informações Pessoais</legend>
+            <div>
+              <label for="nome">Nome</label><br>
+              <input
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Insera o seu nome"
+              required/>
+            </div><br>
 
-          <label for="data-de-nascimento">Data de Nascimento</label><br />
-          <input
-            type="date-de-nascimento"
-            placeholder="Insira a sua data de nascimento"
-            id="date-de-nascimento"
-            name="data-de mascimento"
-          /><br />
+            <div>
+              <label for="email">Email</label><br>
+              <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Insera o seu email"
+              required/>
+            </div><br>
 
-          <label for="password">Password</label><br />
-          <input
-            type="password"
-            placeholder="Insira a sua password"
-            id="password"
-            name="password"
-          /><br />
+            <div>
+              <label for="telefone">Telefone(Opcional)</label><br>
+              <input
+              type="tel"
+              name="telefone"
+              id="felefone"
+              placeholder="(+238)000 00 00"/>
+            </div><br>
 
-          <label for="sexo">Sexo:</label><br />
-          <select>
-            <option value="f">Feminino</option>
-            <option value="m">Masculino</option></select
-          ><br />
+          </fieldset>
 
-          <textarea
-            id="descricao"
-            name="descricao"
-            placeholder="Escreva a sua mensagen"
-            row="6"
-            cols="40"
-          >
-          </textarea
-          ><br />
+          <fieldset>
+            <legend>Motivos de Contacto</legend><br>
+            <div>
+            <label for="assunto">Assunto</label>
+            <select id="assunto" name="assunto" requider>
+              <option value="">--Selecione uma opção</option>
+              <option value="proposta de estagio">Proposta de Estágio</optiion>
+              <option value="projetos ou colaboracoes">Projetos ou Colaborações</option>
+              <opcion value="duvidas ou esclarecimento">Duvidas ou Esclarecimento</opcion>
+            </select>
+            </div><br>
 
-          <lebal for="telefone">Telefone</lebal>
-          <input type="radio" 
-          id="telefone" 
-          name="preferencia" checked />
+            <div>
+              <label for="mensagem">Mensagem</label><br>
+              <textarea
+              id="mensagem"
+              name="mensagem"
+              placeholder="Sua Mensagem"
+              row="10"
+              cols="20"
+              required
+              maxlength="255">
+             </textarea>
+            </div>
 
-          <label for="email">Email</label>
-          <input type="radio" 
-          id="email" 
-          name="preferencia" /><br>
+          <div>
+            <label for="resposta">Como preferes receber a resposta?</label><br>
+            <input
+            type="radio"
+            id="telefone"
+            name="resposta"
+            value="telefone"
+            checked/>
 
-          <lebal for="">Autorização para uso dos dados introduzidos</lebal>
-          <input id="autorizacao" name="autorizacao" type="checkbox"/>
+            <label for="telefone">Telefone</label><br>
 
+            <input
+            type="radio"
+            id="email"
+            name="resposta"
+            value="email"/>
+
+            <label for="email">Email</label>
+
+
+            <div>
+              <label for="autorizacao">Autorização</label>
+
+              <input
+              type="checkbox"
+              value="sim"
+              id="autorizacao"
+              name="autorizacao"/><br>
+
+              <label>Autoriza a utilização dos  meus dados e aceito os termos de uso da plataforma!</label>
+
+            </div>
+
+          </div>
+          </fieldset>
+          <div>
           <button type="submit">Enviar</button>
           <button type="reset">Limpar</button>
+          </div>
         </form>
       </section>
     </main>
