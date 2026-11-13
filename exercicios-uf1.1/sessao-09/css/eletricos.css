@@ -1,0 +1,245 @@
+
+/* =========================================
+   PALETA DE CORES — ELÉTRICOS DE LISBOA
+
+   Amarelo principal: #facc15
+   Quase preto: #1c1917
+   Texto secundário: #78716c
+   Bordas: #d6d3d1
+   Vermelho para avisos: #dc2626
+   Fundo da página: #fafaf9
+   Fundo dos cartões: #ffffff
+========================================= */
+
+/* 1. BASE */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #1c1917;
+  background-color: #fafaf9;
+}
+
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* 2. TEXTO E FONTES */
+
+h1,
+h2,
+h3 {
+  font-family: "Rubik", Arial, sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin: 2rem 0 1rem;
+  border-left: 7px solid #facc15;
+  padding-left: 12px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin: 0 0 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+/* 3. CABEÇALHO, MENU E RODAPÉ */
+
+header {
+  background-color: #facc15;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 8px solid #1c1917;
+}
+
+header img {
+  background-color: white;
+  padding: 8px;
+  border: 2px solid #1c1917;
+  border-radius: 12px;
+  max-width: 100%;
+  height: auto;
+}
+
+header h1 {
+  color: #1c1917;
+}
+
+nav {
+  margin-top: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 5px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  background-color: #1c1917;
+  color: #facc15;
+  border-radius: 999px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  background-color: #44403c;
+}
+
+.subtitulo {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.introducao {
+  font-size: 1.15rem;
+  margin: 2rem 0;
+}
+
+footer {
+  background-color: #1c1917;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #facc15;
+}
+
+/* 4. TABELAS */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin: 1.5rem 0;
+}
+
+caption {
+  font-weight: 700;
+  padding: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #d6d3d1;
+  padding: 0.8rem;
+  text-align: left;
+}
+
+th {
+  background-color: #facc15;
+  color: #1c1917;
+}
+
+/* 5. CLASSES */
+
+.cartao {
+  background-color: #ffffff;
+  border: 1px solid #d6d3d1;
+  border-top: 6px solid #facc15;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.numero-linha {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background-color: #facc15;
+  border: 2px solid #1c1917;
+  border-radius: 999px;
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+
+.curiosidade {
+  background-color: rgb(254, 243, 199);
+  border: 1px solid #d6d3d1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.aviso {
+  background-color: hsl(0, 85%, 96%);
+  border: 2px dashed #dc2626;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.aviso li {
+  margin-bottom: 0.7rem;
+}
+
+/* 6. IDS */
+
+#linhas,
+#historia,
+#resumo,
+#dicas {
+  padding-top: 1rem;
+}
+
+/* 7. ADAPTAÇÃO A ECRÃS PEQUENOS */
+
+@media (max-width: 600px) {
+  header {
+    padding: 1.5rem 1rem;
+  }
+
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  nav a {
+    width: 100%;
+  }
+
+  table {
+    font-size: 0.85rem;
+  }
+
+  th,
+  td {
+    padding: 0.4rem;
+  }
+}

@@ -1,0 +1,182 @@
+
+/* =========================================
+   PALETA DE CORES
+   Principal: #176B87
+   Títulos: #123B50
+   Realce: #F4B942
+   Texto: #263238
+   Texto secundário: #607D8B
+   Bordas: #D6E0E5
+   Fundo da página: #F4F7F9
+   Fundo dos cartões: #FFFFFF
+========================================= */
+
+/* 1. BASE */
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7f9;
+    color: #263238;
+    margin: 0;
+}
+
+main {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+
+h1,
+h2,
+h3 {font-family: "Poppins",Arial, sans-serif;
+    color: #123B50;
+    font-weight: 700;
+}
+
+h1{
+font-size: 1.5rem;
+margin: 2rem 0;
+}
+
+h2 {
+    font-size: 1.5;
+    margin: 2rem 0 1rem;
+}
+
+p{
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+header{
+    background-color: #123850;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+header h1{
+    color: white;
+}
+
+header img {
+    border: 3px solod white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 2);
+}
+
+nav {
+    background-color: #176887;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    background-color: #123B50;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #123B50;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #D6E0E5;
+    padding: 0.7;
+    text-align: left;
+}
+
+th {
+    background-color: #176B87;
+    color: whinte;
+}
+
+input,
+select,
+textarea {
+    padding: 0.7rem;
+    border: 1px solid #D6E0E5;
+    border-radius: 5px;
+    font-family: inherit;
+    max-width: 100%;
+}
+
+textarea {
+    width:100%;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+.cartao{
+    padding: 1.5rem;
+    border: 1px solid #D6E0E5;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    background-color: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.aviso {
+    background-color: hsl(45, 100%, 90%);
+    border-left: 5px solid #f4b942;
+    padding: 1rem;
+}
+
+.botao {
+    display: inline-block;
+    padding: 0.7em 1.4em;
+    background-color: #176B87;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#sugestoes {
+    margin-top: 2rem;
+}
+
+#onde-fica,
+#historia,
+#monumentos,
+#ditado,
+#o-que-visitar {
+    padding-top: 1rem;
+}

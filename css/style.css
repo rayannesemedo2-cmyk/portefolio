@@ -1,3 +1,17 @@
+
+:root{
+  --cor-principal:#000000;
+  --cor-titulo: #134e4a;
+  --cor-texto: #1f2937;
+  --cor-texto-secundario: #6b7280;
+  --cor-linha: #e5e7eb;
+  --cor-fundo: #f8fafc;
+  --cor-fundo-cartao: #ffffff;
+  --cor-realce: #ea580c;
+  --raio-borda: 8px;
+}
+
+
 body{
     font-family:"henny Penny",sans-serif;
     background-color: aliceblue;
@@ -44,4 +58,26 @@ nav > ul > li > a {
 
 nav {
     width: 50%;
+}
+.etiquetas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+
+video{
+  display: block;
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  background-color: aqua;
+}
+
+.video-pai{
+  padding: 20px;
+  width: 100% ;
+  display: flex;
+  justify-content: center;
 }

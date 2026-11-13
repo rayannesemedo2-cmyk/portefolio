@@ -600,7 +600,7 @@ article blockquote {
 ```
 
 > **Atenção — A diferença crucial entre vírgula e espaço:**
-> - `nav, a` (com vírgula) seleciona o elemento `<nav>` **E** todos os elementos `<a>` da página inteira.
+> 
 > - `nav a` (com espaço) seleciona apenas os elementos `<a>` que sejam **filhos ou descendentes** do `<nav>`.
 
 > **Confirmem antes de avançar:**
