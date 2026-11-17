@@ -1,0 +1,151 @@
+/* ==========================================================================
+   Portefólio Pessoal — Ana Martins
+   Folha de Estilos Principal (mobile-first: primeiro o telemóvel,
+   depois os ecrãs maiores, na secção 7)
+   As cores e as medidas que se repetem estão em variáveis, no :root.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Base: caixas, corpo da página e largura do conteúdo
+   -------------------------------------------------------------------------- */
+
+/* Variáveis: a paleta e as medidas que se repetem, num só sítio.
+   Para mudar uma cor no site todo, basta mudá-la aqui. */
+:root {
+  --cor-principal: #0f766e;
+  --cor-principal-escura: #115e59;
+  --cor-principal-media: #99f6e4;
+  --cor-principal-clara: #f0fdfa;
+  --cor-titulos: #134e4a;
+  --cor-texto: #1f2937;
+  --cor-texto-secundario: #6b7280;
+  --cor-bordas: #e5e7eb;
+  --cor-bordas-campos: #d1d5db;
+  --cor-fundo: #f8fafc;
+  --cor-fundo-header: #fefefe;
+  --cor-branca: #ffffff;
+  --cor-realce: #ea580c;
+  --cor-realce-clara: #fff7ed;
+  --raio: 12px;
+  --sombra: 0 2px 8px rgba(15, 23, 42, 0.08);
+  --sombra-forte: 0 8px 20px rgba(15, 23, 42, 0.14);
+}
+
+main{
+   margin: 10px 0px;
+   padding: 10px;
+   background-color: var(--cor-fundo);
+}
+
+
+
+/* box-sizing para todos os elementos, body e main centrado */
+
+/* --------------------------------------------------------------------------
+   2. Texto e fontes
+   -------------------------------------------------------------------------- */
+
+/* Títulos com a Poppins, parágrafos, links, imagens, figure, video e figcaption */
+
+/* --------------------------------------------------------------------------
+   3. Cabeçalho, menu e rodapé
+   -------------------------------------------------------------------------- */
+header{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: var(--cor-fundo-header);
+   border-bottom: 2px solid var(--cor-bordas);
+   box-shadow: var(--sombra);
+   padding: 10px 0px;
+}
+
+#profile-photo{
+   width: 20%;
+   height: 150px;
+}
+
+header h1{
+   color: var(--cor-titulos);
+}
+
+header p {
+   color: var(--cor-texto-secundario);
+}
+
+nav ul {
+   display: flex;
+   gap: 15px;
+   list-style-type: none;
+   margin: 0;
+   margin-bottom: 10px;
+   padding: 0;
+}
+
+nav ul li{
+   padding: 6px 12px;
+   border: none;
+}
+
+nav ul li:hover{
+   background-color: var(--cor-realce-clara);
+   border-bottom: 2px solid var(--cor-realce);
+}
+
+nav ul a:active{ 
+    border-bottom: 2px solid var(--cor-realce);
+}
+
+nav ul a {
+   text-decoration: none;
+   color: var(--cor-texto);
+   font-size: 16pt;
+}
+h2 {
+   color: var(--cor-titulos);
+   font-size: 25pt;
+}
+h3 {
+   color: var(--cor-titulos);
+   font-size: 18pt;
+}
+
+.etiquetas {
+   display: flex;
+   flex: 2;
+   justify-content: space-evenly;
+   list-style-type: none;
+}
+
+.etiquetas li {
+   background-color: var(--cor-principal-media);
+   padding: 6px 12px;
+   border-radius: var(--raio);
+}
+/* header, menu com Flexbox, rodapé em coluna e lista .redes */
+
+/* --------------------------------------------------------------------------
+   4. Tabelas e formulários
+   -------------------------------------------------------------------------- */
+
+/* .tabela-responsiva, table, caption, th e td, fieldset, legend, label e campos */
+
+/* --------------------------------------------------------------------------
+   5. Componentes reutilizáveis (classes)
+   -------------------------------------------------------------------------- */
+
+/* .cartao, .curiosidade, .destaque, .botao, .etiquetas, .acoes e .grelha-projetos */
+
+/* --------------------------------------------------------------------------
+   6. Elementos únicos (id)
+   -------------------------------------------------------------------------- */
+
+/* #formulario-contacto */
+
+/* --------------------------------------------------------------------------
+   7. Ecrãs maiores (media queries)
+   -------------------------------------------------------------------------- */
+
+/* @media (min-width: 768px): títulos maiores, rodapé numa linha e grelha de 2 colunas */

@@ -1,0 +1,158 @@
+Portefólio Pessoal — Conteúdos para Recomeçar do Zero
+
+Este ficheiro tem todo o texto das três páginas do portefólio, pela ordem em que aparece.
+Os textos são os da Ana Martins: troquem pelos vossos dados (nome, cidade, percurso, e-mail, GitHub).
+Não publiquem a vossa morada nem o vosso número de telemóvel.
+
+As imagens estão na pasta imagens/ e o vídeo e as legendas na pasta video/, ao lado deste ficheiro.
+O CSS usa a fonte Poppins do Google Fonts (pesos 600 e 700) nos títulos.
+
+
+==================================================
+EM TODAS AS PÁGINAS
+==================================================
+
+Cabeçalho:
+- Fotografia: imagens/foto.svg (160 x 160), alt "Ilustração do rosto de Ana Martins, a sorrir"
+- Título principal: Ana Martins
+- Frase: Futura programadora web (em destaque), a aprender a construir sites de raiz.
+- Menu: Início (index.html), Projetos (projetos.html), Contactos (contactos.html)
+
+Rodapé:
+- © 2026 Ana Martins
+- Lista de links: E-mail (mailto:ana.martins@exemplo.pt) e GitHub (https://github.com/ana-martins-dev, abre noutro separador)
+
+Favicon: imagens/favicon.svg
+
+
+==================================================
+PÁGINA 1: index.html
+==================================================
+
+Título do separador: Ana Martins | Portefólio
+Descrição (meta description): Portefólio pessoal de Ana Martins, futura programadora web em Setúbal. Apresentação, percurso de formação e projetos práticos.
+
+Secção "Sobre mim":
+Sou de Setúbal e trabalhei dez anos no comércio, sempre ao balcão.
+Em 2026 decidi mudar de vida e aprender a programar: quero ser programadora full-stack. (full-stack está em inglês)
+
+Subtítulo "Competências em desenvolvimento" (lista em etiquetas):
+- HTML5 semântico e estruturação acessível
+- CSS3 com estilização externa e seletores eficientes
+- Controlo de versões com Git e GitHub
+- Atenção ao detalhe e organização de código
+- Comunicação e trabalho em equipa
+
+Caixa de curiosidade:
+Sabiam que… (em destaque) o primeiro site da história foi publicado em 1991, no CERN, por Tim Berners-Lee.
+
+Secção "Apresentação em vídeo":
+- Vídeo: video/apresentacao.mp4 (640 x 360), capa imagens/video-capa.jpg, legendas video/apresentacao.vtt (Português)
+- Legenda por baixo do vídeo: Em 9 segundos: quem sou e o que procuro (com legendas).
+
+Secção "O meu percurso" (id="percurso"):
+O meu caminho profissional e as etapas de formação que me trouxeram até aqui:
+
+Tabela (legenda: Percurso formativo e profissional de Ana Martins)
+Colunas: Período | Área / Função | Entidade | Local
+- 2026 – Presente | Curso de Desenvolvimento Web Full-Stack | Formação Profissional | Setúbal
+- 2016 – 2026 | Comércio e atendimento ao público | Loja Central | Setúbal
+- 2013 – 2016 | Ensino Secundário | Escola Secundária de Bocage | Setúbal
+
+Secção "O que dizem de mim" (um cartão com uma citação):
+"A Ana resolve qualquer problema com calma e com um sorriso."
+— Carla Sousa, gerente da loja onde a Ana trabalhou
+
+Secção "Contacto rápido":
+Estou sempre disponível para trocar ideias ou conversar sobre novas oportunidades.
+Dois botões lado a lado:
+- Enviar e-mail (mailto:ana.martins@exemplo.pt)
+- Página de Contactos (contactos.html#formulario-contacto, botão secundário)
+
+
+==================================================
+PÁGINA 2: projetos.html
+==================================================
+
+Título do separador: Projetos | Ana Martins
+Descrição: Projetos desenvolvidos por Ana Martins: portefólio pessoal, páginas semânticas, dados acessíveis e código versionado no GitHub.
+
+Secção "Os meus projetos":
+Aqui partilho os projetos que construí até ao momento durante a minha formação de desenvolvimento web:
+
+Quatro cartões numa grelha (cada um com imagem 400 x 240, título, descrição e tecnologias):
+
+1. Portefólio Pessoal
+   Imagem: imagens/projeto-portefolio.svg, alt "Página inicial do portefólio, com a fotografia, o nome e dois cartões"
+   Este mesmo site, construído de raiz com HTML5 semântico, estilizado com folha de estilo externa CSS3 e versionado no GitHub.
+   Tecnologias: HTML5, CSS3, Git, GitHub
+
+2. A Minha Cidade
+   Imagem: imagens/projeto-cidade.svg, alt "Página A Minha Cidade, com o mar, um barco e um castelo no monte"
+   Uma página dedicada a Setúbal, com ilustrações SVG, dados históricos, tabela cultural e formulário de sugestões validado.
+   Tecnologias: HTML5, CSS3, SVG
+
+3. Passadiços do Paiva
+   Imagem: imagens/projeto-passadicos.svg, alt "Página dos Passadiços do Paiva, com montanhas, o rio e o passadiço de madeira"
+   Página de turismo e conservação ambiental com galeria informativa e sistema de reserva com regras rigorosas de validação nativa.
+   Tecnologias: HTML5, Metadados SEO, CSS3
+
+4. Os Elétricos de Lisboa
+   Imagem: imagens/projeto-eletricos.svg, alt "Página Os Elétricos de Lisboa, com um elétrico amarelo numa rua a subir"
+   Página sobre as linhas de elétrico mais conhecidas de Lisboa, com cartões, etiquetas e uma paleta inspirada nos elétricos amarelos.
+   Tecnologias: HTML5, CSS3, Google Fonts
+
+Secção "Resumo técnico dos projetos":
+Uma visão geral das tecnologias e do estado atual de cada trabalho:
+
+Tabela (legenda: Resumo dos projetos desenvolvidos e tecnologias aplicadas)
+Colunas: Projeto | Tecnologias | Ano | Estado
+- Portefólio Pessoal | HTML5, CSS3, Git, GitHub | 2026 | Em desenvolvimento
+- A Minha Cidade | HTML5, CSS3, SVG | 2026 | Concluído
+- Passadiços do Paiva | HTML5, CSS3, SEO | 2026 | Concluído
+- Os Elétricos de Lisboa | HTML5, CSS3, Google Fonts | 2026 | Concluído
+
+
+==================================================
+PÁGINA 3: contactos.html
+==================================================
+
+Título do separador: Contactos | Ana Martins
+Descrição: Entre em contacto com Ana Martins para propostas de estágio, projetos de desenvolvimento web ou esclarecimento de dúvidas.
+
+Secção "Vamos conversar?":
+Estou disponível para novas oportunidades de estágio e colaboração a partir de 2027. Podem entrar em contacto comigo através dos seguintes canais:
+- E-mail: ana.martins@exemplo.pt (link mailto)
+- GitHub: github.com/ana-martins-dev (link, abre noutro separador)
+- Localização: Setúbal, Portugal (disponível para trabalho presencial ou remoto)
+
+Caixa de nota:
+Nota: (em destaque) Costumo responder a todas as mensagens no prazo máximo de 24 horas úteis.
+
+Secção "Envie uma mensagem" (id="formulario-contacto"):
+Se preferir, pode enviar uma mensagem diretamente através do formulário abaixo:
+
+Formulário (action="#", method="post"):
+
+Grupo "Os seus dados":
+- Nome completo: texto, obrigatório, 3 a 80 caracteres, exemplo "Ex.: Maria Santos"
+- Correio eletrónico: e-mail, obrigatório, exemplo "maria.santos@exemplo.pt"
+- Telefone (opcional): 9 algarismos (pattern [0-9]{9}), exemplo "912345678", com a explicação "Indique um contacto telefónico válido com 9 algarismos"
+
+Grupo "Motivo do contacto":
+- Assunto principal (lista, obrigatória): -- Por favor, selecione uma opção -- / Proposta de estágio / Projeto ou colaboração / Dúvida ou esclarecimento / Outro assunto
+- Como teve conhecimento do meu portefólio? (botões de rádio, o primeiro já marcado): LinkedIn / GitHub / Recomendação direta / Outro meio
+- Áreas de interesse conjunto (caixas de verificação): Desenvolvimento Frontend / Desenvolvimento Backend / Acessibilidade Web
+- Mensagem detalhada: caixa de texto de 6 linhas, obrigatória, 10 a 1000 caracteres, exemplo "Escreva aqui a sua mensagem..."
+- Caixa de verificação obrigatória: Autorizo o tratamento destes dados exclusivamente para efeitos de resposta a este contacto.
+
+Botões lado a lado: Enviar mensagem (submit) / Limpar formulário (reset, botão secundário)
+
+Secção "Horário de disponibilidade":
+Os períodos em que estou mais facilmente contactável para reuniões ou conversas informais:
+
+Tabela (legenda: Disponibilidade semanal para contacto e reuniões)
+Colunas: Dias da semana | Horário | Formato preferencial
+- Segunda a Sexta | 09:00 – 18:00 | E-mail ou videoconferência
+- Sábado | 10:00 – 13:00 | E-mail
+- Domingo | Indisponível | Descanso semanal
