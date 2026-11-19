@@ -1,0 +1,7 @@
+Em HTML, a etiqueta <span> é usada para destacar ou agrupar uma pequena parte de texto, sem criar uma nova linha nem alterar a estrutura do parágrafo.
+
+    A diferença entre <span> e <div> está na forma como cada elemento organiza o conteúdo HTML.
+- <span>: utilizado para selecionar ou destacar uma pequena parte do texto, sem iniciar uma nova linha.
+- <div>: utilizado para agrupar elementos e criar blocos de conteúdo, ocupando normalmente uma nova linha.
+
+    

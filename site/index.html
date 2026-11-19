@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<!-- <html>: raiz da página; lang="pt" diz ao navegador que o texto está em português -->
+<html lang="pt">
+  <!-- <head>: informação sobre a página (não aparece no ecrã) -->
+  <head>
+    <!-- <meta charset>: permite mostrar acentos e símbolos (ã, ç, é...) corretamente -->
+    <meta charset="utf-8" />
+    <!-- <meta viewport>: faz a página ajustar-se bem ao tamanho do telemóvel -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>: texto que aparece no separador do navegador -->
+    <title>Rui Costa — Fotografia | Porto</title>
+    <!-- <meta description>: pequena descrição da página para os motores de busca -->
+    <meta
+      name="description"
+      content="Rui Costa, fotógrafo de casamentos e paisagens no Porto."
+    />
+
+    <!-- Fontes do Google: Newsreader (títulos e textos de leitura) e Manrope (etiquetas e textos pequenos) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Ícones Material Symbols (usados em Curiosidade, aspas, e-mail e calendário) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link> do nosso CSS: liga o ficheiro com todos os estilos da página -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <!-- <body>: tudo o que aparece no ecrã -->
+  <body>
+    <!-- ============ CABEÇALHO (fica fixo no topo) ============ -->
+    <!-- <header>: topo da página -->
+    <header class="cabecalho">
+      <!-- <div>: caixa que alinha o conteúdo do cabeçalho (logótipo à esquerda, menu à direita) -->
+      <div class="cabecalho__interior">
+        <!-- <a>: o logótipo é um link que leva ao início -->
+        <a class="logo" href="#">
+          <!-- <span>: nome do fotógrafo (letra grande) -->
+          <span class="logo__nome">Rui Costa</span>
+          <!-- <span>: linha pequena por baixo do nome -->
+          <span class="logo__sub">Fotografia • Porto</span>
+        </a>
+
+        <!-- <div>: agrupa o menu e o botão do lado direito -->
+        <div class="cabecalho__direita">
+          <!-- <nav>: menu principal (escondido em ecrãs pequenos) -->
+          <nav class="menu" aria-label="Menu principal">
+            <!-- <a>: cada link do menu -->
+            <a class="menu__link" href="#">Início</a>
+            <a class="menu__link" href="#">Serviços</a>
+            <a class="menu__link" href="#">Contactos</a>
+          </nav>
+
+          <!-- <div>: agrupa o botão preto e a foto pequena -->
+          <div class="cabecalho__acoes">
+            <!-- <a class="botao">: botão preto "Disponibilidade" -->
+            <a class="botao" href="#">Disponibilidade</a>
+            <!-- <img>: foto pequena do fotógrafo (alt = texto alternativo para leitores de ecrã) -->
+            <img
+              class="cabecalho__foto"
+              src="images/retrato-rui-costa.jpg"
+              alt="Retrato de Rui Costa"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- <main>: conteúdo principal da página -->
+    <main class="principal">
+      <!-- ============ APRESENTAÇÃO (Início) ============ -->
+      <!-- <section>: bloco de apresentação; id="inicio" serve para os links #inicio -->
+      <section class="apresentacao" id="inicio">
+        <!-- <div>: caixa centrada com largura máxima -->
+        <div class="apresentacao__conteudo">
+          <!-- <div>: moldura do retrato (posição relativa para colocar a etiqueta "Porto, PT" por cima) -->
+          <div class="retrato">
+            <!-- <div>: moldura cinzenta à volta da foto -->
+            <div class="retrato__moldura">
+              <!-- <img>: retrato do fotógrafo -->
+              <img
+                class="retrato__imagem"
+                src="images/retrato-rui-costa.jpg"
+                alt="Rui Costa, fotógrafo no Porto"
+              />
+            </div>
+            <!-- <div>: etiqueta pequena sobreposta no canto inferior direito do retrato -->
+            <div class="retrato__etiqueta">
+              <!-- <span>: texto da etiqueta -->
+              <span>Porto, PT</span>
+            </div>
+          </div>
+
+          <!-- <h1>: título principal da página (só deve existir um) -->
+          <h1 class="apresentacao__titulo">Rui Costa</h1>
+
+          <!-- <p>: frase de apresentação -->
+          <p class="apresentacao__frase">
+            Fotógrafo de
+            <!-- <strong>: texto em destaque (mais escuro e mais forte) -->
+            <strong>casamentos e paisagens</strong>, no Porto.
+          </p>
+
+          <!-- <nav>: pequeno menu de atalhos para as secções da própria página -->
+          <nav class="atalhos" aria-label="Atalhos da página">
+            <!-- <a>: atalhos; <span> "/" são os separadores -->
+            <a href="#inicio">Início</a>
+            <span class="atalhos__separador">/</span>
+            <a href="#sobre">Sobre</a>
+            <span class="atalhos__separador">/</span>
+            <a href="#especialidades">Serviços</a>
+            <span class="atalhos__separador">/</span>
+            <a href="#contacto-rapido">Contactos</a>
+          </nav>
+        </div>
+      </section>
+
+      <!-- ============ FAIXA DE PAISAGEM (foto larga do Douro) ============ -->
+      <!-- <section>: faixa com a foto larga -->
+      <section class="faixa">
+        <!-- <figure>: caixa da foto com altura fixa e cantos pouco arredondados -->
+        <figure class="faixa__caixa">
+          <!-- <img>: paisagem do Douro -->
+          <img
+            class="faixa__imagem"
+            src="images/douro-vinhateiro.jpg"
+            alt="Paisagem do Douro Vinhateiro com nevoeiro matinal sobre os socalcos e o rio"
+          />
+          <!-- <figcaption>: legenda da foto, colocada no canto inferior esquerdo -->
+          <figcaption class="faixa__legenda">
+            <!-- <span>: texto pequeno em maiúsculas dentro da legenda -->
+            <span>Douro Vinhateiro • 41°09'N 7°48'W • Luz Matinal</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <!-- ============ SOBRE MIM ============ -->
+      <!-- <section>: fundo cinzento-claro; id="sobre" serve para o atalho #sobre -->
+      <section class="sobre" id="sobre">
+        <!-- <div>: grelha de 12 colunas (texto à esquerda, caixa e foto à direita) -->
+        <div class="sobre__grelha">
+          <!-- <div>: coluna da esquerda (7 colunas) -->
+          <div class="sobre__texto">
+            <!-- <span>: etiqueta pequena castanha por cima do título -->
+            <span class="rotulo">01 / Biografia</span>
+            <!-- <h2>: título da secção -->
+            <h2 class="titulo-secao">Sobre mim</h2>
+
+            <!-- <div>: agrupa os dois parágrafos -->
+            <div class="sobre__paragrafos">
+              <!-- <p>: parágrafo de texto -->
+              <p>Comecei a fotografar aos 15 anos, com a máquina do meu avô.</p>
+              <p>
+                Hoje fotografo pessoas e lugares com uma
+                <!-- <abbr>: abreviatura; ao passar o rato aparece o significado (title) -->
+                <abbr class="sobre__abreviatura" title="câmara reflex digital">DSLR</abbr>,
+                sempre com luz natural.
+              </p>
+            </div>
+
+            <!-- <div>: bloco das especialidades; id="especialidades" serve para o atalho "Serviços" -->
+            <div class="especialidades" id="especialidades">
+              <!-- <h3>: subtítulo pequeno -->
+              <h3 class="especialidades__titulo">Especialidades</h3>
+              <!-- <ul>: lista (2 colunas em ecrãs médios/grandes) -->
+              <ul class="especialidades__lista">
+                <!-- <li>: cada especialidade, com uma bolinha castanha antes do texto -->
+                <li class="especialidades__item">
+                  <span class="especialidades__bolinha"></span>
+                  <span>Fotografia documental de casamento</span>
+                </li>
+                <li class="especialidades__item">
+                  <span class="especialidades__bolinha"></span>
+                  <span>Sessões de família ao ar livre</span>
+                </li>
+                <li class="especialidades__item">
+                  <span class="especialidades__bolinha"></span>
+                  <span>Paisagens naturais do Norte de Portugal</span>
+                </li>
+                <li class="especialidades__item">
+                  <span class="especialidades__bolinha"></span>
+                  <span>Impressão artística em papéis de algodão</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- <div>: coluna da direita (5 colunas) -->
+          <div class="sobre__lateral">
+            <!-- <aside>: caixa lateral com a curiosidade (conteúdo complementar) -->
+            <aside class="curiosidade">
+              <!-- <div>: linha com o ícone e a palavra "Curiosidade" -->
+              <div class="curiosidade__cabecalho">
+                <!-- <span>: ícone (o nome do ícone é o texto) -->
+                <span class="icone icone--18" aria-hidden="true">history_edu</span>
+                <span class="curiosidade__nome">Curiosidade</span>
+              </div>
+              <!-- <p>: frase em itálico -->
+              <p class="curiosidade__frase">
+                <!-- <strong>: pequeno título "Sabiam que…" em letras maiúsculas -->
+                <strong class="curiosidade__titulo">Sabiam que…</strong>
+                a primeira fotografia da história foi tirada em 1826, por Joseph
+                Nicéphore Niépce, e demorou 8 horas de exposição.
+              </p>
+              <!-- <div>: linha de rodapé da caixa (local à esquerda, ano à direita) -->
+              <div class="curiosidade__rodape">
+                <span>Le Gras • França</span>
+                <span>1826</span>
+              </div>
+            </aside>
+
+            <!-- <figure>: segunda foto (papel de algodão) com legenda por cima -->
+            <figure class="foto-papel">
+              <!-- <img>: foto do papel de algodão -->
+              <img
+                class="foto-papel__imagem"
+                src="images/papel-algodao-arquivo.jpg"
+                alt="Impressões fotográficas em papel de algodão sobre uma mesa de carvalho escuro"
+              />
+              <!-- <div>: camada escura transparente (10%) por cima da foto -->
+              <div class="foto-papel__camada"></div>
+              <!-- <figcaption>: legenda branca no canto inferior esquerdo -->
+              <figcaption class="foto-papel__legenda">
+                Papel de Algodão 310gsm • Arquivo
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EXPOSIÇÕES E RECONHECIMENTO ============ -->
+      <!-- <section>: secção da tabela de exposições -->
+      <section class="exposicoes">
+        <!-- <div>: caixa centrada com largura máxima -->
+        <div class="exposicoes__conteudo">
+          <!-- <div>: cabeçalho da secção (etiqueta, título e frase) -->
+          <div class="exposicoes__cabecalho">
+            <span class="rotulo rotulo--bloco">02 / Currículo • Arquivo</span>
+            <h2 class="titulo-secao exposicoes__titulo">
+              Exposições e Reconhecimento
+            </h2>
+            <!-- <p>: frase de introdução -->
+            <p class="exposicoes__intro">
+              Alguns dos momentos mais marcantes do meu percurso fotográfico:
+            </p>
+          </div>
+
+          <!-- <div>: caixa branca que envolve a tabela (permite deslizar em ecrãs pequenos) -->
+          <div class="tabela-caixa">
+            <!-- <table>: tabela de exposições -->
+            <table class="tabela">
+              <!-- <caption>: legenda da tabela (descreve o que a tabela mostra) -->
+              <caption class="tabela__legenda">
+                Histórico de exposições e distinções de Rui Costa
+              </caption>
+              <!-- <thead>: cabeçalho da tabela -->
+              <thead>
+                <!-- <tr>: linha da tabela -->
+                <tr class="tabela__cabecalho">
+                  <!-- <th scope="col">: título de coluna -->
+                  <th class="tabela__ano-titulo" scope="col">Ano</th>
+                  <th scope="col">Exposição / Distinção</th>
+                  <th scope="col">Galeria / Organização</th>
+                  <th class="tabela__direita" scope="col">Cidade</th>
+                </tr>
+              </thead>
+              <!-- <tbody>: corpo da tabela (as linhas de dados) -->
+              <tbody>
+                <tr class="tabela__linha">
+                  <!-- <td>: célula de dados -->
+                  <td class="tabela__ano">2025</td>
+                  <td class="tabela__nome">Exposição Individual "Luzes do Douro"</td>
+                  <td class="tabela__org">Galeria Municipal</td>
+                  <td class="tabela__cidade">Porto</td>
+                </tr>
+                <tr class="tabela__linha">
+                  <td class="tabela__ano">2024</td>
+                  <td class="tabela__nome">Menção Honrosa em Fotografia de Paisagem</td>
+                  <td class="tabela__org">Festival de Fotografia do Norte</td>
+                  <td class="tabela__cidade">Braga</td>
+                </tr>
+                <tr class="tabela__linha">
+                  <td class="tabela__ano">2022</td>
+                  <td class="tabela__nome">Exposição Coletiva "Gentes do Norte"</td>
+                  <td class="tabela__org">Centro Cultural Regional</td>
+                  <td class="tabela__cidade">Guimarães</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TESTEMUNHO ============ -->
+      <!-- <section>: secção com fundo cinzento-claro -->
+      <section class="testemunho">
+        <!-- <div>: caixa centrada com largura máxima -->
+        <div class="testemunho__conteudo">
+          <!-- <div>: cabeçalho centrado -->
+          <div class="testemunho__cabecalho">
+            <span class="rotulo rotulo--bloco">03 / Testemunho</span>
+            <h2 class="titulo-secao">O que dizem os clientes</h2>
+          </div>
+
+          <!-- <article>: cartão do testemunho (conteúdo independente) -->
+          <article class="cartao-testemunho">
+            <!-- <span>: ícone de aspas -->
+            <span class="icone icone--36 cartao-testemunho__aspas" aria-hidden="true">format_quote</span>
+            <!-- <blockquote>: citação do cliente -->
+            <blockquote class="cartao-testemunho__citacao">
+              «As fotografias do nosso casamento são o nosso maior tesouro.»
+            </blockquote>
+            <!-- <div>: linha com foto pequena e nome dos clientes -->
+            <div class="cartao-testemunho__autor">
+              <!-- <div>: moldura da foto pequena -->
+              <div class="cartao-testemunho__foto">
+                <img
+                  src="images/marta-pedro-casamento.jpg"
+                  alt="Marta e Pedro no dia do casamento"
+                />
+              </div>
+              <!-- <cite>: nome de quem disse a citação -->
+              <cite class="cartao-testemunho__nome">— Marta e Pedro, casaram em 2025</cite>
+            </div>
+            <!-- <div>: local do casamento -->
+            <div class="cartao-testemunho__local">
+              <span>Quinta da Gricha</span>
+              <span>•</span>
+              <span>Douro</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ============ CONTACTO RÁPIDO ============ -->
+      <!-- <section>: secção de contacto; id="contacto-rapido" serve para o atalho "Contactos" -->
+      <section class="contacto" id="contacto-rapido">
+        <!-- <div>: caixa cinzenta centrada -->
+        <div class="contacto__caixa">
+          <span class="rotulo rotulo--bloco">04 / Agendamento</span>
+          <h2 class="titulo-secao contacto__titulo">Contacto rápido</h2>
+          <!-- <p>: texto com link de e-mail (classe destaque) e botão (classe botao) -->
+          <p class="contacto__texto">
+            Têm dúvidas sobre as datas disponíveis? Enviem um e-mail para
+            <!-- <a class="destaque">: e-mail sublinhado a castanho; mailto: abre o programa de e-mail -->
+            <a class="destaque" href="mailto:rui.costa@exemplo.pt">rui.costa@exemplo.pt</a>
+            ou peçam um orçamento através da
+            <!-- <a class="botao">: botão preto dentro do texto, leva ao formulário de orçamento -->
+            <a class="botao botao--no-texto" href="contactos.html#orcamento">Página de Contactos</a>.
+          </p>
+
+          <!-- <div>: linha com os dois botões grandes -->
+          <div class="contacto__botoes">
+            <!-- <a>: botão claro com ícone de e-mail -->
+            <a class="botao botao--claro" href="mailto:rui.costa@exemplo.pt">
+              <span class="icone icone--18 icone--castanho" aria-hidden="true">mail</span>
+              Enviar Mensagem Direta
+            </a>
+            <!-- <a>: botão preto com ícone de calendário -->
+            <a class="botao botao--grande" href="contactos.html#orcamento">
+              <span class="icone icone--18" aria-hidden="true">calendar_today</span>
+              Pedir Orçamento 2026/27
+            </a>
+          </div>
+
+          <!-- <div>: informações pequenas por baixo dos botões -->
+          <div class="contacto__notas">
+            <span>Resposta em menos de 24 horas</span>
+            <span>•</span>
+            <span>Atelier em Miguel Bombarda</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ RODAPÉ ============ -->
+    <!-- <footer>: fim da página -->
+    <footer class="rodape">
+      <!-- <div>: caixa com as margens laterais da página -->
+      <div class="rodape__interior">
+        <!-- <div>: grelha de 12 colunas (3 blocos de informação) -->
+        <div class="rodape__grelha">
+          <!-- <div>: bloco 1 (5 colunas): marca e frase -->
+          <div class="rodape__marca">
+            <span class="rodape__nome">Rui Costa — Fotografia</span>
+            <p class="rodape__frase">
+              Luz atlântica, granito e narrativa documental. Casamentos e
+              paisagem autoral no Porto e Douro.
+            </p>
+          </div>
+          <!-- <div>: bloco 2 (4 colunas): estúdio -->
+          <div class="rodape__estudio">
+            <span class="rodape__rotulo">Estúdio</span>
+            <span class="rodape__texto">Rua de Miguel Bombarda, Porto</span>
+            <a class="rodape__link" href="mailto:atelier@ruicosta.pt">atelier@ruicosta.pt</a>
+          </div>
+          <!-- <div>: bloco 3 (3 colunas): disponibilidade, alinhado à direita -->
+          <div class="rodape__galeria">
+            <span class="rodape__rotulo">Galeria &amp; Editorial</span>
+            <span class="rodape__texto rodape__texto--claro">Disponibilidade Limitada 2026/2027</span>
+          </div>
+        </div>
+        <!-- <div>: linha final com direitos e localização -->
+        <div class="rodape__fim">
+          <span>© 2026 Rui Costa. Todos os direitos reservados.</span>
+          <span>Porto • Portugal</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
