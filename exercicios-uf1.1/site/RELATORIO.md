@@ -37,3 +37,7 @@ Como o `code.html` precisa da internet (Tailwind) para aparecer, reconstruí as 
 - Faltava copiar do original a regra que **esconde a barra de rolagem** (`::-webkit-scrollbar{display:none}`). Sem ela, o navegador tira cerca de 15px de largura à página e o conteúdo quebra linha de forma diferente e fica mais "compacto". Corrigido (também para Firefox).
 - Copiado também: `overscroll-behavior: none` no body e o aumento de 2% do retrato ao passar o rato (500ms).
 - Comparação com o original refeita a 390, 820, 1024, 1100, 1280, 1440 e 1920px: todas as posições e tamanhos iguais, exceto os ícones (fonte de ícones não carrega offline).
+
+Em HTML, a etiqueta <span> é usada para destacar ou agrupar uma pequena parte de texto, sem criar uma nova linha nem alterar a estrutura do parágrafo.
+<span>: usado para pequenas partes de texto, sem quebrar a linha.
+<div>: usado para agrupar elementos maiores, normalmente em blocos separados.
